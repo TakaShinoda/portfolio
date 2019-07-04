@@ -124,7 +124,7 @@ li {
   display: block;
 }
 
-#about .inner,
+#profile .inner,
 #skill .inner {
   max-width: 1000px;
 }
@@ -137,6 +137,8 @@ li {
   align-items: center;
   justify-content: center;
   height: 86vh;
+  background-size: 100% auto;
+  background-image: url(../img/about/aoshima.jpg);
 }
 
 #header .logo {
@@ -290,55 +292,32 @@ li {
 }
 
 /*--------------------------------
- FEATURE
+ PROFILE
 ---------------------------------*/
 
-#feature .section-body {
+#profile .section-body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-#feature .section-image {
-  flex-basis: 58%;
-}
-
-#feature .section-image img {
-  width: 100%;
-  margin: 0 auto;
-}
-
-#feature .section-desc {
-  flex-basis: 37%;
-}
-
-/*--------------------------------
- ABOUT
----------------------------------*/
-
-#about .section-body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-#about .section-image {
+#profile .section-image {
   flex-basis: 20%;
   margin: 0 auto;
 }
 
-#about .section-image a {
+#profile .section-image a {
   display: block;
   border-radius: 50%;
 }
 
-#about .section-image img {
+#profile .section-image img {
   margin: 0 auto;
   border-radius: 50%;
   box-shadow: 0 0 25px 0 #d9d9d9;
 }
 
-#about .section-desc {
+#profile .section-desc {
   flex-basis: 62%;
 }
 
@@ -362,7 +341,7 @@ li {
 }
 
 #skill .skill-icon {
-  flex-basis: 60px;
+  flex-basis: 80px;
 }
 
 #skill .skill-desc {
@@ -598,12 +577,12 @@ li {
     margin-bottom: 20px;
   }
 
-  #about.section-image,
-  #about .section-desc {
+  #profile.section-image,
+  #profile .section-desc {
     flex-basis: 100%;
   }
 
-  #about .section-image {
+  #profile .section-image {
     flex-basis: 100px;
     margin: 0 auto 20px;
   }
