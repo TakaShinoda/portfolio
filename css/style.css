@@ -138,6 +138,7 @@ li {
   height: 86vh;
   background-size: 100% auto;
   background-image: url(../img/about/aoshima.jpg);
+  background-repeat: no-repeat;
 }
 
 #header .logo {
