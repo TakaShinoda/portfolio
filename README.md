@@ -1,5 +1,5 @@
 # portfolio
-ポートフォリオのWebサイトです
+ポートフォリオサイトです
 
 ## URL
 https://TakaShinoda.github.io/portfolio/
